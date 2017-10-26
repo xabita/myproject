@@ -1,5 +1,4 @@
 """myproject URL Configuration
-
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.11/topics/http/urls/
 Examples:
@@ -25,5 +24,3 @@ urlpatterns = [
 	url(r'^boards/(?P<pk>\d+)/new/$', views.new_topic, name='new_topic'),
     url(r'^admin/', admin.site.urls),
 ]
-
-
